@@ -1,0 +1,22 @@
+# Release archives and build output: they are uploaded to GitHub Releases, not committed
+*.zip
+SHA256SUMS.txt
+RELEASE_NOTES.md
+release/
+out/
+
+# Generated icons (the repository holds only the documentation)
+*.svg
+*.png
+!docs/*.png
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+.directory
