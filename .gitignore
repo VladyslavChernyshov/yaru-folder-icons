@@ -9,6 +9,7 @@ out/
 *.svg
 *.png
 !docs/*.png
+!docs/swatches/*.svg
 
 # IDEs and editors
 .idea/
